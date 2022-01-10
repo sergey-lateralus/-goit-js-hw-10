@@ -1,0 +1,9 @@
+ {{#each this}}<li>
+
+    <ul class="country-list">
+        <li class="country-title"><h3>Capital:</h3> {{capital}}</li>
+        <li class="country-title"><h3>Population:</h3> {{population}}</li>
+        <li class="country-title"><h3>Languages:</h3> {{#each languages}}<span>{{ this}}</span>{{/each}}</li>
+    </ul>
+ 
+ </li>{{/each}}
